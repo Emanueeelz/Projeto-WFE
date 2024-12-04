@@ -1,0 +1,12 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* #b9dc9e */
+    /* #822e19 */
+    background-color: #b9dc9e
+}
+
+.cabecalho img {
+    height: 100px;
+}
