@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cartao',
@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './cartao.component.css'
 })
 export class CartaoComponent {
-
+  @Input() titulo: string=''; // decorate the property with @Input()
+  @Input() descricao: string='';
+  @Input() imagem: string='';
 }
