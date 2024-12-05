@@ -1,6 +1,11 @@
 <div class="container">
     <div class="row row-cols-4">
-        <div class="col"><app-cartao [titulo]="'teste'" [descricao]="'teste'" [imagem]="'/logo.png'"></app-cartao></div>
-        <div class="col"><app-cartao [titulo]="'tal tal tal'" [descricao]="'luffy'" [imagem]="'https://img.assinaja.com/upl/lojas/mundosinfinitos/imagens/foto-one-piece.png'"></app-cartao></div>
+        @for (item of receitas; track item.titulo) {
+            <div class="col"><app-cartao [titulo]="item.titulo" [descricao]="item.descricao" [imagem]="item.imagem"></app-cartao></div>
+            } @empty {
+            <li>There are no items.</li>
+            }
       </div>
 </div>
+
+
