@@ -1,45 +1,22 @@
-# ProjetoWfe
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
-
-## Development server
-
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Site de Receitas de Animes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Integrantes do Projeto:
+- Marcelo Henrique Cordeiro e Souza.
+- Emanuel Correia Tavares.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-'
-# Site de Receitas de Animes
-
-## Integrantes do Projeto
-- Marcelo Henrique Cordeiro e Souza
-- Emanuel Correia Tavares
-
-## Requisitos Mínimos para Execução
+## Requisitos Mínimos para Execução:
 - Node.js
 - Angular CLI
 
-## Descrição do Projeto
-Este site contém receitas inspiradas em animes famosos, como Death Note, Naruto, One Piece e outros. Ele é um site interativo e utilizavel para quem quer aprender a fazer receitas famosas de animes
+## Descrição do Projeto:
+Este site contém receitas inspiradas em animes famosos, como Death Note, Naruto, One Piece e outros. Ele é um site interativo e utilizavel para quem quer aprender a fazer receitas famosas de animes.
 
-### Receitas:
+## Como rodar?
+Execute `ng serve` no terminal, acesse `http://localhost:4200/` no navegador, e veja as mudanças aplicadas automaticamente ao alterar os arquivos.
+
+## Receitas:
 - **Bolo do L** (Death Note)
 - **Lamen de Naruto** (Naruto)
 - **Curry do Sanji** (One Piece)

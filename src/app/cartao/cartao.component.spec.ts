@@ -10,7 +10,7 @@ describe('CartaoComponent', () => {
     await TestBed.configureTestingModule({
       imports: [CartaoComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(CartaoComponent);
     component = fixture.componentInstance;

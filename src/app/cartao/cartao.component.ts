@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './cartao.component.css'
 })
 export class CartaoComponent {
-  @Input() titulo: string=''; // decorate the property with @Input()
-  @Input() descricao: string='';
-  @Input() imagem: string='';
+  @Input() titulo: string = '';
+  @Input() descricao: string = '';
+  @Input() imagem: string = '';
 }
