@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
   templateUrl: './cartao.component.html',
   styleUrl: './cartao.component.css'
 })
+// Requisito mínimo = @Input
 export class CartaoComponent {
   @Input() titulo: string = '';
   @Input() descricao: string = '';

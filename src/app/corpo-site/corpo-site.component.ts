@@ -42,6 +42,22 @@ export class CorpoSiteComponent {
       titulo: "Nikuman",
       descricao: "Apenas com licença 'Hunter'.",
       imagem: "https://i.pinimg.com/originals/c0/09/5b/c0095b5252f1776a017c101802051fba.png"
+    }, {
+      titulo: "Sopa de Missô",
+      descricao: "Um poder de mais de 8 mil!!",
+      imagem: "https://contents.oricon.co.jp/photo/img/5000/5449/detail/img660/1582627272741.jpg"
+    }, {
+      titulo: "Gyoza",
+      descricao: "Pasteizinhos do período 'Edo'.",
+      imagem: "https://itadakimasuanime.wordpress.com/wp-content/uploads/2014/04/gyoza-natsuyuki-rendezvou-02-01.png"
+    }, {
+      titulo: "Karaage",
+      descricao: "É o 'Bleach', não tem jeito.",
+      imagem: "https://i.pinimg.com/736x/0c/65/6a/0c656a419027309ff4e8dd36176571d3.jpg"
+    }, {
+      titulo: "Taiyaki",
+      descricao: "Desperte aqui sua individualidade!",
+      imagem: "https://i.pinimg.com/originals/9a/3d/d5/9a3dd5bfaa8cbeae4b72da90002ab5ea.jpg"
     }
   ]
 }
