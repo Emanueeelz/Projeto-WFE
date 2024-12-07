@@ -1,3 +1,4 @@
+// Requisito mínimo = Componente (Cabecalho)
 import { Component } from '@angular/core';
 
 @Component({

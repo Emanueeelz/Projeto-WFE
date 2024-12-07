@@ -1,3 +1,4 @@
+// Requisito mínimo = Componente (Rodapé)
 import { Component } from '@angular/core';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component'
 import { CorpoSiteComponent } from './corpo-site/corpo-site.component'

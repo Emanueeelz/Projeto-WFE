@@ -1,3 +1,4 @@
+// Requisito mínimo = Componente (Receita)
 import { Component } from '@angular/core';
 
 @Component({

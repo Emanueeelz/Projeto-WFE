@@ -1,3 +1,4 @@
+// Requisito mínimo = Componente (Cartão)
 import { Component, Input } from '@angular/core';
 
 @Component({
