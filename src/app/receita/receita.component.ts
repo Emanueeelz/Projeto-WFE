@@ -12,4 +12,6 @@ import { Output, EventEmitter } from '@angular/core';
 export class ReceitaComponent {
   @Input() favoritar: boolean = false;
   @Output() newItemEvent = new EventEmitter<boolean>();
+  @Input() imagem: string = '';
+  @Input() receita: string = '';
 }

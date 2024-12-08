@@ -1,3 +1,4 @@
+// Requisito mínimo = Componente (Cartao)
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { ReceitaComponent} from '../receita/receita.component'
 

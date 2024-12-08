@@ -1,3 +1,4 @@
+// Requisito mínimo = Componente (Contato)
 import { Component, Input } from '@angular/core';
 
 @Component({
