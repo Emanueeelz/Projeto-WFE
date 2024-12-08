@@ -19,3 +19,15 @@ img {
     height: auto;
     width: auto\9;
 }
+.favoritar,
+.favoritado{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 32px;
+    position:absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.favoritado{
+    color: red;
+}

@@ -1,16 +1,22 @@
-// Requisito mínimo = Componente (Cartão)
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { ReceitaComponent} from '../receita/receita.component'
 
 @Component({
   selector: 'app-cartao',
-  standalone: true,
-  imports: [],
   templateUrl: './cartao.component.html',
-  styleUrl: './cartao.component.css'
+  standalone: true,
+  imports: [ReceitaComponent],
+  styleUrls: ['./cartao.component.css']
 })
-// Requisito mínimo = @Input
 export class CartaoComponent {
   @Input() titulo: string = '';
   @Input() descricao: string = '';
   @Input() imagem: string = '';
+  @Input() favorito: boolean = false;
+  @Output() favoritarEvento = new EventEmitter<boolean>();
+
+  alterarFavorito() {
+    this.favorito = !this.favorito;
+    this.favoritarEvento.emit(this.favorito);
+  }
 }

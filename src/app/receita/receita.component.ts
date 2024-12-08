@@ -1,5 +1,6 @@
 // Requisito mínimo = Componente (Receita)
-import { Component } from '@angular/core';
+import { Component, Input, input } from '@angular/core';
+import { Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-receita',
@@ -9,5 +10,6 @@ import { Component } from '@angular/core';
   styleUrl: './receita.component.css'
 })
 export class ReceitaComponent {
-
+  @Input() favoritar: boolean = false;
+  @Output() newItemEvent = new EventEmitter<boolean>();
 }

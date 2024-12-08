@@ -1,4 +1,5 @@
 <!-- Requisito mínimo = Interpolação {{}} -->
+<!-- Requisito mínimo = Property binding -->
 <div class="card" style="width: 18rem;">
   <img [src]="imagem" class="card-img-top">
   <div class="card-body">
@@ -8,6 +9,12 @@
       Visualizar
     </button>
   </div>
+  @if (favorito) {
+    <i class="bi bi-bookmark-heart-fill favoritado" (click)="alterarFavorito()"></i>
+    } 
+    @else {
+      <i class="bi bi-bookmark-heart-fill favoritar" (click)="alterarFavorito()"></i>
+    }
 </div>
 
 <!-- Requisito mínimo = Bootstrap -->
@@ -19,11 +26,10 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        {{descricao}}
+        <app-receita [favoritar]="favorito"></app-receita>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">Favoritar</button>
       </div>
     </div>
   </div>

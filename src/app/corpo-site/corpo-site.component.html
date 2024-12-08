@@ -1,10 +1,11 @@
 <!-- Requisito mínimo = @for -->
 <div class="container">
     <div class="row row-cols-4">
-        @for (item of receitas; track item.titulo) {
-            <div class="col"><app-cartao [titulo]="item.titulo" [descricao]="item.descricao" [imagem]="item.imagem"></app-cartao></div>
-            } @empty {
-            <li>There are no items.</li>
-            }
-      </div>
+        @for (item of receitas; track item.titulo; let idx = $index, e = $even) {
+        <div class="col"><app-cartao [titulo]="item.titulo" [descricao]="item.descricao"
+                [imagem]="item.imagem" (favoritarEvento)="atualizarFavorito(idx, $event)"></app-cartao></div>
+        } @empty {
+        <li>There are no items.</li>
+        }
+    </div>
 </div>

@@ -15,11 +15,15 @@ Este site contém receitas inspiradas em animes famosos, como Death Note, Naruto
 Execute `ng serve` no terminal, acesse `http://localhost:4200/` no navegador, e veja as mudanças aplicadas automaticamente ao alterar os arquivos.
 
 ## Receitas:
-- **Bolo do 'L'** (Death Note)
-- **Lamen de Naruto** (Naruto)
+- **Strawberry Shortcake** (Death Note)
+- **Lamen** (Naruto)
 - **Bentô** (vários animes)
-- **Curry do Sanji** (One Piece)
-- **Takoyaki do país de Wano** (One Piece)
+- **Curry** (One Piece)
+- **Takoyaki** (One Piece)
 - **Dango** (Naruto)
 - **Onigiri** (Viagem de Chihiro)
 - **Nikuman** (Hunter x Hunter)
+- **Sopa de Missô** (Dragon Ball)
+- **Gyoza** (vários animes)
+- **Karaage** (Bleach)
+- **Taiyaki** (Boku no Hero)
