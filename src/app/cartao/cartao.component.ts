@@ -10,11 +10,15 @@ import { ReceitaComponent} from '../receita/receita.component'
   styleUrls: ['./cartao.component.css']
 })
 export class CartaoComponent {
+
+  id: number = Math.floor(Math.random() * 1000);
   @Input() titulo: string = '';
   @Input() descricao: string = '';
   @Input() imagem: string = '';
   @Input() favorito: boolean = false;
   @Output() favoritarEvento = new EventEmitter<boolean>();
+  @Input() receita: string = '';
+  @Input() imagemReal: string = '';
 
   alterarFavorito() {
     this.favorito = !this.favorito;

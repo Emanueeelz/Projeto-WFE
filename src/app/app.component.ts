@@ -8,7 +8,7 @@ import { ReceitaComponent } from "./receita/receita.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CabecalhoComponent, CorpoSiteComponent, RodapeComponent, ReceitaComponent],
+  imports: [CabecalhoComponent, CorpoSiteComponent, RodapeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
