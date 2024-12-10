@@ -1,4 +1,3 @@
-// Requisito mínimo = Componente (Contato)
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -8,6 +7,8 @@ import { Component, Input } from '@angular/core';
   templateUrl: './contato.component.html',
   styleUrl: './contato.component.css'
 })
+
+// Requisito mínimo: @Input
 export class ContatoComponent {
   @Input() nome: string =''
   @Input() github: string =''

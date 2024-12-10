@@ -1,4 +1,3 @@
-// Requisito mínimo = Componente (Corpo do Site)
 import { Component } from '@angular/core';
 import { CartaoComponent } from '../cartao/cartao.component'
 

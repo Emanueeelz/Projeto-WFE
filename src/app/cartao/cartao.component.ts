@@ -1,6 +1,5 @@
-// Requisito mínimo = Componente (Cartao)
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { ReceitaComponent} from '../receita/receita.component'
+import { ReceitaComponent } from '../receita/receita.component'
 
 @Component({
   selector: 'app-cartao',
@@ -9,8 +8,10 @@ import { ReceitaComponent} from '../receita/receita.component'
   imports: [ReceitaComponent],
   styleUrls: ['./cartao.component.css']
 })
-export class CartaoComponent {
 
+// Requisito mínimo: @Input
+// Requisito mínimo: @Output
+export class CartaoComponent {
   id: number = Math.floor(Math.random() * 1000);
   @Input() titulo: string = '';
   @Input() descricao: string = '';

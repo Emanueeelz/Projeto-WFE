@@ -1,4 +1,3 @@
-// Requisito mínimo = Componente (Receita)
 import { Component, Input, input } from '@angular/core';
 import { Output, EventEmitter } from '@angular/core';
 
@@ -9,6 +8,9 @@ import { Output, EventEmitter } from '@angular/core';
   templateUrl: './receita.component.html',
   styleUrl: './receita.component.css'
 })
+
+// Requisito mínimo: @Input
+// Requisito mínimo: @Output
 export class ReceitaComponent {
   @Input() favoritar: boolean = false;
   @Output() newItemEvent = new EventEmitter<boolean>();
